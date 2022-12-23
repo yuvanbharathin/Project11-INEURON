@@ -1,0 +1,762 @@
+/* Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+li{
+    list-style: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:wght@700&display=swap');
+
+
+
+/* Navigation */
+
+.nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.logo{
+    font-size: 100px;
+    margin-left: 150px;
+    flex-grow: 1;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    font-size: 20px;
+    padding: 0 30px;
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list-item:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-margin{
+    margin-right: 150px;
+    margin-left: 80px ;
+}
+
+.btn-plain{
+    color: #3BB0FF;
+    border: 1px solid #3BB0FF;
+    border-style: groove;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn-plain:hover{
+    cursor: pointer;
+    color: rgba(59, 177, 255, 0.733);
+    border-color: rgba(59, 177, 255, 0.733);
+}
+
+/* Intro */
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
+    flex-wrap: wrap-reverse; /*reverse the content inside the div .intro*/
+}
+
+/* .intro-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+} */
+
+.intro-opposite{
+    flex-direction: row-reverse;
+}
+
+.meaning{
+    width: 500px;
+    font-size: 18px;
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.btn-blue{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #3BB0FF;
+    background: linear-gradient(to right, #3bb1ff9a, #0893f0 );
+}
+
+.btn-blue:hover{
+    color: #ffffff;
+    background-color: #0697f8;
+    cursor: pointer;
+}
+
+.heading-intro{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+
+.intro-info{
+    margin-left: 150px;
+}
+
+.intro-pic{
+    margin-right: 150px;
+}
+
+.heading{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+
+.intro-info-opposite{
+    margin-right: 150px;
+}
+
+.intro-pic-opposite{
+    margin-left: 150px;
+}
+
+/* Services */
+
+.service-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+
+.service-head-meaning{
+    width: 600px;
+}
+
+
+.service-types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+.service-meaning{
+    width: 500px;
+}
+
+.service-pic{
+    width: 80px;
+}
+
+.service-types-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+}
+
+.service-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.service-meaning{
+    font-family: 'Montserrat', sans-serif;
+    color: #808080;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+/* Pricing */
+
+.heading-white{
+    margin: 100px 0 40px;
+    color: #ffffff;
+}
+
+.pricing{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    background: linear-gradient(to right bottom, #3bb1ff9a, #0893f0 );
+    margin-bottom: 150px;
+}
+
+.pricing-pack{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 99vw;
+}
+
+.pack-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.pack-list{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 360px;
+}
+
+.pack-list-item{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    margin-bottom: 15px;
+}
+
+.arrow-tick{
+    border: 2px solid #90ee90;
+    border-radius: 50px;
+    padding: 3px;
+    color: #90ee90;
+    margin-right: 15px;
+}
+
+.pack-hat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 400px;
+    border: none;
+    border-radius: 10px;  
+    padding: 40px 0 30px 40px; 
+}
+
+
+.pack{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    padding: 0 0px 120px;
+    height: 520px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.pack-info{
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.pack-tail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+span{
+    color: #808080;
+}
+
+.cancel{
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 15px 0 25px 0;
+}
+
+.pack-invert-back{
+    background-color: #000000bd;
+}
+
+.pack-invert{
+    color: #ffffff;
+}
+
+/* Customer */
+
+.customer-meaning{
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.customer-testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.customer-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    padding: 20px 50px;
+    border: 1px solid #8080803b;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+
+.customer-info{
+    width: 650px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+.customer-small{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 650px;
+}
+
+.customer-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.customer-company{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dot{
+    font-size: 70px;
+    color: #80808098;
+    margin-right: 15px;
+}
+
+/* Farewell */
+
+.farewell{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to bottom, #3bb1ff9a, #0893f0 );
+    height: 550px;
+}
+
+.meaning-white{
+    color: #ffffff;
+}
+
+.btn-farewell{
+    color: #ffffff;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.btn-farewell:hover{
+    color: #ffffff;
+    border-color: #ffffff;
+    opacity: 0.80;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.logo-s{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-info{
+    font-size: 18px;
+    color: #808080;
+}
+
+.footer-list-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.footer-heading{
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.social-icon{
+    color: #000000;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1500px){
+
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 0;
+        flex-grow: 0;
+    }
+
+    .list{
+        margin: 2em 0;
+    }
+
+    .btn-margin{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .pricing{        
+        height: 2400px;        
+    }
+
+    .pricing-pack{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pack{
+        margin: 2em 0;
+    }
+
+}
+
+@media (max-width: 1020px){
+
+    .logo{
+        font-size: 5em;
+    }
+
+    .list-item{
+        font-size: 1em;
+    }
+
+    .btn-margin{
+        font-size: 1em;
+    }
+
+    .heading-intro{
+        font-size: 3em;
+    }
+
+    .heading{
+        font-size: 3em;
+    }
+
+    .meaning{
+        font-size: 1em;
+        width: 500px;
+    }
+
+    .btn-blue{
+        font-size: 1em;
+    }
+
+    .intro-pic img{
+        width: 400px;
+    }
+
+    .intro{        
+        justify-content: center;     
+        align-items: center;  
+        flex-direction: column-reverse; 
+        text-align: center;
+    }    
+
+    .intro-info{
+        margin-left: 0;
+    }
+
+    .intro-info-opposite{
+        margin-right: 0;
+    }
+
+    .intro-pic{
+        margin-right: 0;
+    }
+
+    .intro-pic-opposite{
+        margin-left: 0;
+    }
+
+    .service-head{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-heading{
+        font-size: 1.5em;
+        margin: 1em 0;
+    }
+
+    .service-meaning{
+        font-size: 0.8em;
+        width: 300px;
+    }
+
+    .service-pic{
+        width: 4em;
+        position: relative;
+        left: 40%;
+    }
+
+    .service-types-inner{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .heading-white{
+        width: 500px;
+        text-align: center;
+    }
+
+    .pack{
+        padding: 0 0px 120px;
+        height: 520px;
+    }
+
+    .pack-heading{
+        font-size: 1.5em;
+    }
+
+    .pack-info{
+        font-size: 1em;
+    }
+
+    .pack-list-item{
+        font-size: 0.8em;
+    }
+
+    .pack-list{
+        width: 250px;
+    }
+
+    .price{
+        font-size: 1.5em;
+    }
+
+    .cancel{
+        font-size: 0.8em;
+    }
+
+    .btn-plain{
+        font-size: 1em;
+    }
+
+    .pack-hat{
+        width: 300px;
+    }
+
+    .pack{
+        width: 340px;
+        height: 500px;
+    }
+
+    .customer-info{
+        font-size: 0.8em;
+        width: 240px;
+    }
+
+    .customer-small{
+        width: 250px;
+    }
+
+    .dot{
+        font-size: 3em;
+    }
+
+    .customer-name{
+        font-size: 1em;
+    }
+
+    .customer-company{
+        font-size: 0.8em;
+    }
+
+    .farewell{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list{
+        margin: 2em 0;
+    }
+
+}
+
+
+@media (max-width: 700px){
+
+    .list-item{
+        margin: 1em 0;
+    }
+
+    .list{
+        flex-direction: column;
+    }
+
+    .heading-intro{
+        font-size: 1.8em;
+        width: 300px;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 1.8em;
+    }
+
+    .meaning{
+        font-size: 0.8em;
+        width: 300px;
+    }
+
+    .intro-pic img{
+        width: 300px;
+    }
+   
+
+    .intro-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-types{
+        margin-left: 0;
+    }
+
+    .service-types-inner{        
+        margin-right: 0;
+    }
+
+    .heading-white{
+        width: 300px;
+    }
+
+
+    .pack-hat{
+        width: 260px;
+    }
+
+    .pack{
+        width: 300px;
+    }
+
+    .customer-info{
+        width: 200px;
+    }
+
+    .customer-small{
+        width: 200px;
+    }
+
+    .dot{
+        font-size: 3em;
+    }
+
+    .customer-name{
+        font-size: 1em;
+    }
+
+    .customer-company{
+        font-size: 0.8em;
+    }
+
+    .farewell{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-list{
+        margin: 2em 0;
+    }
+
+}
